@@ -2,7 +2,7 @@
 # Create a custom role and add 'Azure role assignments' to have the permission in your subscription to find, start & stop resources
 
 
-[![Deploy To Azure](https://raw.githubusercontent.com/MCSEdwin/Templates/main/deploytoazure.svg?sanitize=true)] (https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMCSEdwin%2FTemplates%2Fmain%2FManage_My_Resources_Operator.json)]
+[![Deploy To Azure](https://raw.githubusercontent.com/MCSEdwin/Templates/main/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMCSEdwin%2FTemplates%2Fmain%2FManage_My_Resources_Operator.json)]
 
 In order for the application to have the permission in your subscription to find, start & stop resources, the user assigned identity 'ManageMy-Resources' must be assigned a subscription level role. We recommend using a custom role with a minimal set of permissions.
 
