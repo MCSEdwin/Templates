@@ -8,10 +8,17 @@ In order for the application to have the permission in your subscription to find
 
 Create custom role
 Select the managed resource group (this can be found in the overview section of the managed application).
+
 Select the user assigned identity named 'ManageMy-Resources'
+
 Select 'Azure role assignments'
+
 Add a role assignment at the subscription level granting either the Contributor role or 'Manage My Resources Operator' custom role
-Contributor: easy win, suitable for testing the product, but grants the application far more rights than it requires
+
+OR :
+
+Add as Contributor: suitable for testing the product, but grants the application far more rights than it requires.
+
 Manage My Resources Operator: prefered option, assigns the minimum set of rights required to discover, stop and start resources
 
 Documentation for these roles can be found in https://learn.microsoft.com/en-us/azure/role-based-access-control/resource-provider-operations.
