@@ -17,9 +17,11 @@ Select 'Azure role assignments'
 
 Add a role assignment at the subscription level granting either the Contributor role or 'Manage My Resources Operator' custom role
 
-OR :
+# OR :
 
-Add as Contributor: suitable for testing the product, but grants the application far more rights than it requires.
+# Add as Contributor: 
+
+Suitable for testing the product, but grants the application far more rights than it requires.
 
 Manage My Resources Operator: prefered option, assigns the minimum set of rights required to discover, stop and start resources
 
