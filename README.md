@@ -17,6 +17,21 @@ Select 'Azure role assignments'
 
 Add a role assignment at the subscription level granting either the Contributor role or 'Manage My Resources Operator' custom role
 
+"Microsoft.Compute/virtualMachines/read",
+"Microsoft.Compute/virtualMachines/instanceView/read",
+"Microsoft.Compute/virtualMachines/deallocate/action",
+"Microsoft.Compute/virtualMachines/start/action",
+"Microsoft.Compute/virtualMachineScaleSets/read",
+"Microsoft.Compute/virtualMachineScaleSets/deallocate/action",
+"Microsoft.Compute/virtualMachineScaleSets/start/action",
+"Microsoft.ContainerService/managedClusters/read",
+"Microsoft.ContainerService/managedClusters/start/action",
+"Microsoft.ContainerService/managedClusters/stop/action",
+"Microsoft.Network/bastionHosts/read",
+"Microsoft.Network/bastionHosts/write",
+"Microsoft.Network/bastionHosts/delete",
+"Microsoft.Network/virtualNetworks/subnets/join/action",
+"Microsoft.Network/publicIPAddresses/join/action"
 # OR :
 
 # Add as Contributor: 
